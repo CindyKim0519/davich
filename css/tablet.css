@@ -54,6 +54,8 @@ line-height:20px;
  .pub_photo>img { width:100%; height:600px; } 
  
  .photo>p { width:310px; } 
+ #banner_img2{display:none;}
+
  
 /* 이벤트 슬라이드 서식 */
 .event { width:100%; margin:0px; padding-bottom:100px; } 

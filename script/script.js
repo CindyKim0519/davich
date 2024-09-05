@@ -281,4 +281,9 @@ $(window).scroll(function(){
     let ran = Math.floor(Math.random()*3);
 
     document.getElementById('banner_img').src=`./images/${product_m[ran]}`;
+    
+    let product_m1 = ['random-banner1.jpg','random-banner2.jpg','random-banner3.jpg']
+    let ran1 = Math.floor(Math.random()*3);
+
+    document.getElementById('banner_img2').src=`./images/${product_m1[ran]}`;
   });
