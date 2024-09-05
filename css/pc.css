@@ -30,7 +30,7 @@ header { position:absolute; width:100%; height:200px; top:0%; z-index:9999; }
 .v_slide { margin:0px auto; width:100%; height:770px; position:relative; overflow:hidden; } 
 .v_slide>h2 { display:none; } 
 .v_slide>.visual { width:400%; display:flex; } 
-.slide1, .slide2, .slide3, .slide4 { position:relative; width:100%; height:792px; } 
+.slide1, .slide2, .slide3, .slide4 { position:relative; width:100%; height:792px; object-fit:cover; } 
 .box01 { position:absolute; top:38%; left:20%; height:230px; width:600px; } 
 .v_slide>.visual>div img { width:100%; height:770px; } 
 .fa-solid { font-size:30px; background:#fff; padding:10px 15px; cursor:pointer; border-radius:50%; } 
@@ -82,11 +82,11 @@ line-height:20px;
  .best_product ul>li>h3>a { font-size: 18px; color:#fff; display:block;}
  /*광고사진 */
  
- .pub_photo { width:100%; position:relative; } 
+ .pub_photo { width:100%;margin:0 auto; position:relative; } 
  .photo { position:absolute; top:25%; left:10%; z-index:9000; } 
  .pub_photo>img { width:100%; height:800px; } 
  .photo>h2 { font-size:28px; font-weight:bold; line-height:50px; margin-bottom:5px; } 
- .photo>p { font-size:18px; width:450px; line-height:30px; padding:10px 0px 100px 0px; } 
+ .photo>p { font-size:18px; width:400px; line-height:30px; padding:10px 0px 100px 0px; } 
  .detail { border-bottom:1px solid #0056aa;; text-align:center; padding:5px; font-size:18px;transition:0.5s; }
  .detail:hover{
 background:#0056aa; color:#fff;
@@ -163,7 +163,7 @@ background:#0056aa; color:#fff;
  footer dl:last-child dt { font-size:18px; font-weight:bold;color:#0056aa; } 
  footer .sns i.fab { font-size:20px; color:#333; padding:6px 8px; margin:18px 6px 0px 6px; transition:0.5s;cursor:pointer;}
  footer .sns i.fab:hover { color:#0056aa; } 
- address { width:1200px; margin:0 auto; font-size:12px; } 
+ address { width:1200px; margin:0 auto; font-size:13px; } 
  address p { padding-left:3%; line-height:30px; } 
  footer .t_btn { position:fixed; right:20px; bottom:120px; z-index:2000; display: none; } 
  /* top버튼 */
@@ -175,3 +175,6 @@ background:#0056aa; color:#fff;
  .p_modal input[type=checkbox]+label { margin-right:600px; } 
  .p_modal a { padding:4px 0px; font-size:13px; }
 
+@media screen and (min-width:1500px){
+    .photo { position:absolute; top:25%; left:18%; z-index:9000; } 
+}
