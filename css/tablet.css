@@ -1,4 +1,5 @@
-@charset "utf-8";@media screen and (min-width:768px) and (max-width:1199px) { header nav { position:fixed; top:60px; width:100%; height:100%; z-index:1001; display:none; } 
+@charset "utf-8";
+@media screen and (min-width:768px) and (max-width:1199px) { header nav { position:fixed; top:60px; width:100%; height:100%; z-index:1001; display:none; } 
  .gnb { width:90%; right:5%; top:90px; } 
  .gnb > ul { display:block; background:#fff; width:100%; } 
  .gnb > li { text-align:center; position:relative; } 
@@ -41,9 +42,10 @@ line-height:20px;
  .title2 { text-align:center;} 
  .best_product ul > li { width:25%; } 
  .best_product ul > li img { width:100%; } 
- .best_product ul>li>a img { width: 100%; height:400px;} 
+ .best_product ul>li>a img { width: 100%; height:320px;} 
  .best_product h3, .best_product p { text-align:left; } 
- .best_product>article>ul>li>h3>a { font-size:18px; } 
+
+ .best_product>article>ul>li>h3>a { font-size:18px;margin-bottom:30px; } 
  .best_product ul>li>a img:hover {transform:scale(1);}
  /*광고사진 */
  
@@ -69,7 +71,7 @@ line-height:20px;
 .gallery { background:#0056aa; } 
  .gallery article { width:100%; margin:0px auto; padding:60px 0px; } 
  .gallery article > h2 { font-size:24px;text-align:center;font-weight:bold; color:#fff; padding:0px 0px 30px 20px; } 
- .girl { width: 100%; display: grid; grid-template-rows: 300px 300px 300px; padding: 20px; box-sizing:border-box; grid-gap: 20px; grid-template-areas:
+ .girl { width: 100%; display: grid; grid-template-rows: 230px 230px 230px; padding: 20px; box-sizing:border-box; grid-gap: 20px; grid-template-areas:
  "g01 g01 g02"
  "g01 g01 g03"
  "g04 g05 g06"; } 
@@ -79,12 +81,12 @@ line-height:20px;
  figcaption h6 { font-size: 13px; font-weight: bold; line-height:30px; color: #fff; padding: 5px 0px 5px 5px; } 
 
  .girl>figure img { width: 100%; } 
- .girl figure:first-child { grid-area: g01; height:620px; } 
- .girl figure:nth-child(2) { grid-area: g02; } 
- .girl figure:nth-child(3) { grid-area: g03; } 
- .girl figure:nth-child(4) { grid-area: g04; } 
- .girl figure:nth-child(5) { grid-area: g05; } 
- .girl figure:last-child { grid-area: g06; } 
+ .girl figure:first-child { grid-area: g01; height:480px; } 
+ .girl figure:nth-child(2) { grid-area: g02;height:230px; } 
+ .girl figure:nth-child(3) { grid-area: g03;height:230px; } 
+ .girl figure:nth-child(4) { grid-area: g04;height:230px; } 
+ .girl figure:nth-child(5) { grid-area: g05; height:230px;} 
+ .girl figure:last-child { grid-area: g06; height:230px;} 
  .girl figure>a:hover img{transform:scale(1);}
  .girl figcaption { transform: translate(0px, -80px); transition:none; background-color: rgba(0,0,0,.8); } 
  .caption01 { transform: translate(0px, -150px); transition:none; background-color: rgba(0,0,0,.8); } 
@@ -109,4 +111,9 @@ line-height:20px;
  address { width:100%; margin:0 auto; font-size:13px; } 
  address p { padding-left:3%; line-height:30px; } 
  footer .t_btn { position:fixed; right:20px; bottom:120px; z-index:2000; display: none; } 
+ }
+
+ @media screen and (min-width:850px) and (max-width:1199px) 
+ {
+    .best_product ul>li>a img{height:450px;}
  }
