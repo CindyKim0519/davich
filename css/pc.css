@@ -148,10 +148,10 @@ background:#0056aa; color:#fff;}
  footer dl:first-child { padding-left:3%; } 
  footer dl dt a { color:#0056aa; font-weight:bold; font-size:18px; } 
  footer dl dt{
-    margin-bottom:20px;
+    margin-bottom:12px;
  }
  footer dl dd {
-    margin-bottom:20px;
+    margin-bottom:12px;
  }
 
  footer dl dt:hover a { color:#0056aa; } 
